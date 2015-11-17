@@ -1,0 +1,6 @@
+name = eco_plot
+description = develop plot functions
+package = Ants Tools
+core = 7.x
+php = 5.2
+

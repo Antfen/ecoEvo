@@ -1,0 +1,368 @@
+#contact_us .webform #edit-submit/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+#block-menu-menu-accordion { }
+
+#block-menu-menu-accordion li {
+    float: left;
+    position: relative;
+}
+#block-menu-menu-accordion li ul {
+   	left: 0px;
+    position: absolute !important;
+    z-index: 999;
+}
+#block-menu-menu-accordion ul.menu li a {
+    line-height: 1.2em;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: normal;
+	background: none;
+	color: #ccc;
+	border-radius: none;
+	-moz-border-radius: none;
+	-webkit-border-radius: none;
+	text-align: left;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#block-menu-menu-accordion ul.menu li a.active {
+	background: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+#block-menu-menu-accordion ul.menu li a:hover {
+	background: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.2em;
+}
+/* ================================= */
+#block-menu-menu-accordion ul.menu li a:after {
+	background-color: #333;
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop (0%,#333),color-stop(48%,#444),color-stop(100%,#000));
+	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+	background-image: -moz-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+	background-image: -ms-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+	background-image: -o-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+	background-image: linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
+	content: " ";
+	position: absolute;
+	height: 2.5em;
+	top: 1px;
+	right: 1px;
+	width: 1px;
+	}
+#block-menu-menu-accordion ul.menu li:last-child a:after {
+	content: " ";
+	display: none;
+}
+/* ========================================== */
+#block-menu-menu-accordion ul.menu ul {
+	width: 200px;
+	background-color: #000;
+	z-index: 999;
+	border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+}
+#block-menu-menu-accordion ul.menu ul li {
+	float: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li a:hover {
+    line-height: 0.9em;
+	text-align: left;
+	color: #ccc;
+	background-color: transparent;
+}
+#block-menu-menu-accordion ul.menu li ul li a:hover {
+    text-decoration: none;
+}
+/* Footer Menu */
+ul.social-networks {
+	margin: 0;
+}
+ul.social-networks li {
+	float:left;
+	list-style: none;
+	height: 40px;
+}
+ul.social-networks li a {
+	display: block;
+	height: 40px;
+}
+ul.social-networks li.facebook {
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/facebook.png) no-repeat;
+	width: 14%;
+	background-size: 75%;
+	margin-right: 15px;
+}
+ul.social-networks li.youtube {
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/youtube.png) no-repeat;
+	width: 10%;
+	background-size: 75%;
+	margin-right: 30px;
+}
+ul.social-networks li.twitter {
+	background: url(http://www.ecorhythm.com/sites/all/themes/omegaeco/social-networks/twitter.png) no-repeat;
+	width: 5%;
+	background-size: 75%;
+	margin-right: 0;
+}
+#block-menu-menu-footer-menu h2.block-title,
+#block-menu-menu-footer-links h2.block-title,
+#block-menu-menu-footer-development h2.block-title,
+#block-menu-menu-footer-fine-print h2.block-title {
+	text-align: left;
+}
+#block-menu-menu-footer-menu,
+#block-menu-menu-footer-links,
+#block-menu-menu-footer-development,
+#block-menu-menu-footer-fine-print {
+	margin:10px 1.333% 0 0;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	padding-left: 0;
+	/*border: 1px solid green !important;*/
+	border: none;
+	width: 25%;
+	float: left;
+}
+#block-menu-menu-footer-menu ul,
+#block-menu-menu-footer-links ul,
+#block-menu-menu-footer-development ul,
+#block-menu-menu-footer-fine-print ul {
+	border-top: 1px solid #666;
+}
+#block-menu-menu-footer-menu ul.menu li,
+#block-menu-menu-footer-links ul.menu li,
+#block-menu-menu-footer-development ul.menu li, 
+#block-menu-menu-footer-fine-print ul.menu li {
+	margin-left: 0;
+	float: none;
+	margin-top: 0;
+	padding: 0px;
+	text-align: left;
+	background: none;
+	filter: none;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	border: none;
+	text-shadow: none;
+}
+#block-menu-menu-footer-menu ul.menu li a,
+#block-menu-menu-footer-links ul.menu li a,
+#block-menu-menu-footer-development ul.menu li a,
+#block-menu-menu-footer-fine-print ul.menu li a {
+	line-height: 22px;
+}
+#block-menu-menu-menu-footer-menu ul.menu li a:hover,
+#block-menu-menu-footer-links ul.menu li a:hover,
+#block-menu-menu-footer-development ul.menu li a:hover,
+#block-menu-menu-footer-fine-print ul.menu li a:hover {
+	/*color: #ddd;*/
+}
+/* ### Zone styles ###*/
+.zone-branding { 
+	background: rgba(0,0,0,1);
+	margin-bottom: 0;
+}
+/* #### Styles for Content Types #### */
+/* Styles for the Contact (webform) */
+#contact_us .webform #edit-submit {
+	width: 45%;
+	min-height: 35px;
+}
+#contact_us .webform {
+	margin-right: 2%;
+}
+#contact_us .morish {
+	margin-top: 0;
+	margin-left: 2%;
+}
+#contact_us .grid-6 {
+	max-width: 50%;
+}
+/* Styles for Media (video) content type */
+#eco_video {
+	padding: 0.8666666%;
+}
+#eco_video .grid-7 {
+	max-width: 60%;
+	margin: 0;
+}
+#eco_video .grid-7 .video_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+	margin-top: 0;
+}
+#eco_video .grid-7 .video_holder.margin_right {
+	margin-right: 4%;
+}
+#eco_video .grid-5 {
+	max-width: 40%;
+	margin: 0;
+}
+#eco_video .grid-5 .video_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+}
+/* Styles for Image Gallery content type */
+#eco_image_gallery {
+	padding: 0.8666666%;
+}
+#eco_image_gallery .grid-7 {
+	max-width: 60%;
+	margin: 0;
+}
+#eco_image_gallery .grid-7 .gallery_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+	margin-top: 0;
+}
+#eco_image_gallery .grid-7 .gallery_holder.margin_right {
+	margin-right: 4%;
+}
+#eco_image_gallery .grid-5 {
+	max-width: 40%;
+	margin: 0;
+}
+#eco_image_gallery .grid-5 .gallery_holder {
+	border: 1px solid #666;
+	padding: 1.8666666%;
+}
+/* Styles for Pod content type */
+#pod {
+	padding: 1.999%;
+}
+#pod .grid-6 {
+	max-width: 48%;
+}
+#pod .grid-6.margin_right {
+	margin-right: 4%;
+}
+/* Styles for Home Panel page content type */
+.home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
+	width: 28%;
+	float: left;
+	margin-right: 2%;
+}
+.home-page-panel-pane_x3-right {
+	margin-right: 0;
+}
+.home-page-panel-pane {
+	width: 49%;
+	float: left;
+}
+.home-page-panel-pane-right {
+	width: 49%;
+	float: right;
+}
+/* ------ Styles for Content Types end ------*/
+/* ### User menu ### */
+#block-system-user-menu ul li, #block-menu-menu-logged-in-console ul li {
+	float: none;
+	width: auto;
+}
+#block-system-user-menu ul li a, #block-menu-menu-logged-in-console ul li a, #block-system-user-menu ul li a:hover, #block-menu-menu-logged-in-console ul li a:hover {
+	line-height: 20px;
+}
+/* ### Home page styles ### */
+/*#block-block-2, #block-block-3, #block-block-4, #block-block-9, #block-block-10 {
+	text-align: left;
+}*/
+.header-main-message h2 {
+	font-size: 2.5em;
+	font-weight: normal;
+	margin: 1.333% auto;
+	text-align: left;
+
+}
+h2.pane-title {
+    font-size: 2.1em;
+    margin-top: 15px;
+    text-align: left;
+}
+/* ### View Image Galery styles ### */
+.view-image-gallery .views-row {
+    margin: 10px 1% 0px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    padding: 10px;
+    width: 202px;
+    float: left;
+}
+/* Styles for Home Panel page content type */
+.surf-page #zone-content {
+	padding-top: 0;
+}
+#region-content .block {
+    padding: 1.999%;
+    border: none;
+    margin-bottom: 0;
+    /*background: none repeat scroll 0% 0% #F1F1F1;*/
+}
+.surf-page .title {
+    display: none;
+}
+.surf-page .pod_panel {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.surf-page .pod_panel img {
+     width: 100%;
+     border: none;
+     border-radius: none;
+     -moz-border-radius: none;
+     -webkit-border-radius: none;
+     overflow: hidden;
+     height: auto;
+}
+.surf-page #breadcrumb {
+	display: none;
+}
+.surf-page #section-content .container-12 {
+	width: 100%;
+}
+.surf-page #section-content .container-12 .grid-12 {
+	width: 100%;
+	margin-right: 0;
+	margin-left: 0;
+}
+.surf-page .surf-page-basic { /* provides padding for the 'basic' and 'pod' content types used in the Surf panel */
+	padding-right: 10%;
+	padding-left: 10%;
+}
+.surf-container-main {
+    min-height: 500px;
+    width: 100%;
+	background-attachment: fixed;
+}
+#surf-container-1 {
+    width: 100%;
+    background-image: url('../images/port-river-wide.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}
+#surf-container-2 {
+    width: 100%;
+    background-image: url('../images/port-river-pnue-wide.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+}
+#surf-container-3 {
+    background-image: url('../images/port-river-creek-mobile.jpg');
+}

@@ -1,0 +1,58 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+.container-12 .grid-3 {
+    /*width: 280px;
+	width: 278px;
+	border: blue 1px solid;*/
+}
+.grid-1 {
+	border: red 1px solid;
+}
+.grid-2 {
+	border: blue 1px solid;
+}
+.grid-3 {
+	border: green 1px solid;
+}
+.grid-4 {
+	border: black 1px solid;
+}
+.grid-5 {
+	border: orange 1px solid;
+}
+.grid-6 {
+	border: yellow 1px solid;
+	width: 574px;
+}
+.grid-7 {
+	border: pink 1px solid;
+}
+.grid-8 {
+	border: purple 3px solid;
+}
+.grid-9 {
+	border: purple 1px solid;
+}
+.grid-10 {
+	border: red 1px dashed;
+}
+.grid-11 {
+	border: green 1px dashed;
+}
+.grid-12 {
+	border: blue 2px dashed;
+	width: 400px;
+}
+
+.container-12 .grid-12 {
+    /*width: 1180px;
+	width: 400px !important;*/
+}
+.navigation {
+	border: 2px solid red;
+    float: right;
+    margin: -66px 0 0 670px;
+    width: 500px;
+
+}

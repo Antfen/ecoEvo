@@ -1,0 +1,49 @@
+/* This file will hold styles that are loaded using the same media query as the narrow grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the normal and widescreen layouts. You may override these styles in the normal 
+ *  and widescreen CSS files as appropriate. */
+.my-front-page {
+    min-height: 500px;
+    width: 100%;
+    background-image: url('../images/newquay-narrow.jpg');
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	color: #fff;
+	-webkit-box-shadow: 0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 20px 10px 0px rgba(50, 50, 50, 0.25);
+}
+/* Styles for Home Panel page content type */
+.home-page-panel-pane_x3, .home-page-panel-pane_x3-right {
+	width: 28%;
+	margin-right: 1.9%;
+}
+.home-page-panel-pane_x3-right {
+	margin-right: 0;
+}
+.home-page-panel-pane_intro h2 {
+	font-size: 1.5em;
+}
+.home-page-panel-pane_intro p {
+	font-size: 1.2em;
+}
+.home-page-panel-pane_x3 h2.pane-title, .home-page-panel-pane_x3-right h2.pane-title {
+	font-size: 1.2em;
+}
+.home-page-panel-pane h2.pane-title, .home-page-panel-pane-right h2.pane-title {
+	font-size: 1.3em;
+}
+/* Urban */
+#surf-container-1 {
+    background-image: url('../images/port-river-narrow.jpg');
+}
+#surf-container-2 {
+    background-image: url('../images/nport-river-pnue-narrow.jpg');
+}
+#surf-container-3 {
+    background-image: url('../images/port-river-creek-mobile.jpg');
+}

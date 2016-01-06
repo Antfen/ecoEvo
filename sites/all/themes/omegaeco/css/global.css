@@ -174,25 +174,63 @@ h3.location-locations-header {
   background-color: #f1f1f1;
   overflow: hidden; }
 
+  .mean-container .mean-nav ul {
+    
+  }
+
+  .mean-container .mean-nav ul li {
+     list-style: none;
+  }
+
+  .mean-container .mean-nav ul li a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: lowercase;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em;
+  outline: none;
+  background: #FF4400;
+  color: #333;
+  list-style: none;
+  text-decoration: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: normal;
+  -webkit-box-shadow: 1px 1px 7px 1px rgba(51, 51, 51, 0.5);
+  box-shadow: 1px 1px 7px 1px rgba(51, 51, 51, 0.5); 
+}
+
+.mean-container .mean-nav ul li a:hover {
+  background: #FFB300;
+  text-decoration: none; }
+
+.mean-container .mean-nav ul li a.active {
+  background: #FF9900;
+  text-decoration: none;
+  color: #fff; }
+
 /* accordion menu */
 /* responsive menu */
-#zone-menu-wrapper {
+/*#zone-menu-wrapper {
   position: relative;
   z-index: 2; }
 
-#block-menu-menu-accordion {
+.block-main-menu {
   margin-bottom: 1em; }
 
-#block-menu-menu-accordion ul.menu {
+.block-main-menu ul.menu {
   margin: 0.1666% 0 0;
   padding-bottom: 0.2666;
   list-style: none;
   position: relative; }
 
-#block-menu-menu-accordion ul.menu li {
+.block-main-menu ul.menu li {
   list-style: none; }
 
-#block-menu-menu-accordion ul.menu li a {
+.block-main-menu ul.menu li a {
   font-family: Arial, Helvetica, sans-serif;
   text-transform: lowercase;
   display: block;
@@ -212,16 +250,16 @@ h3.location-locations-header {
   -webkit-box-shadow: 1px 1px 7px 1px rgba(51, 51, 51, 0.5);
   box-shadow: 1px 1px 7px 1px rgba(51, 51, 51, 0.5); }
 
-#block-menu-menu-accordion ul.menu li a:hover {
+.block-main-menu ul.menu li a:hover {
   background: #FFB300;
   text-decoration: none; }
 
-#block-menu-menu-accordion ul.menu li a.active {
+.block-main-menu ul.menu li a.active {
   background: #FF9900;
   text-decoration: none;
   color: #fff; }
 
-#block-menu-menu-accordion ul.menu li span.over {
+.block-main-menu ul.menu li span.over {
   display: block;
   float: right;
   height: 33px;
@@ -230,27 +268,27 @@ h3.location-locations-header {
   text-align: center;
   cursor: pointer; }
 
-#block-menu-menu-accordion ul.menu li span.over:hover {
+.block-main-menu ul.menu li span.over:hover {
   background-color: none; }
 
-#block-menu-menu-accordion ul.menu ul {
+.block-main-menu ul.menu ul {
   margin: 0;
   padding: 0;
   display: none; }
 
-#block-menu-menu-accordion ul.menu ul li a {
+.block-main-menu ul.menu ul li a {
   text-indent: 0;
   color: #000;
   background: #CCC;
   text-decoration: none; }
 
-#block-menu-menu-accordion ul.menu ul li a:hover {
+.block-main-menu ul.menu ul li a:hover {
   background: #EBEBEB; }
 
-#block-menu-menu-accordion ul.menu ul li a.last {
+.block-main-menu ul.menu ul li a.last {
   border-bottom: none; }
 
-#block-menu-menu-accordion ul.menu li span.over {
+.block-main-menu ul.menu li span.over {
   display: block;
   float: right;
   height: 21px;
@@ -261,12 +299,12 @@ h3.location-locations-header {
   cursor: pointer;
   margin: 9px 10px 0 0; }
 
-#block-menu-menu-accordion ul.menu li span.down {
+.block-main-menu ul.menu li span.down {
   background: transparent url(../images/menu_closed.png) center left no-repeat; }
 
-#block-menu-menu-accordion ul.menu li span.up {
+.block-main-menu ul.menu li span.up {
   background: transparent url(../images/menu_expanded.png) center left no-repeat; }
-
+*/
 /* user menu */
 #block-system-user-menu {
   text-align: center;

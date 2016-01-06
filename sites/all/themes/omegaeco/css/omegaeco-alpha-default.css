@@ -1,17 +1,17 @@
 #contact_us .webform #edit-submit/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
 
-#block-menu-menu-accordion { }
+.block-main-menu { }
 
-#block-menu-menu-accordion li {
+.block-main-menu li {
     float: left;
     position: relative;
 }
-#block-menu-menu-accordion li ul {
+.block-main-menu li ul {
    	left: 0px;
     position: absolute !important;
     z-index: 999;
 }
-#block-menu-menu-accordion ul.menu li a {
+.block-main-menu ul.menu li a {
     line-height: 1.2em;
 	font-size: 1.2em;
 	text-align: center;
@@ -25,20 +25,20 @@
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-#block-menu-menu-accordion ul.menu li a.active {
+.block-main-menu ul.menu li a.active {
 	background: none;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.2em;
 }
-#block-menu-menu-accordion ul.menu li a:hover {
+.block-main-menu ul.menu li a:hover {
 	background: none;
 	text-decoration: none;
 	color: #fff;
 	font-size: 1.2em;
 }
 /* ================================= */
-#block-menu-menu-accordion ul.menu li a:after {
+.block-main-menu ul.menu li a:after {
 	background-color: #333;
 	background-image: -webkit-gradient(linear,left top,left bottom,color-stop (0%,#333),color-stop(48%,#444),color-stop(100%,#000));
 	background-image: -webkit-linear-gradient(to bottom,#333 0,#444 48%,#000 100%);
@@ -53,12 +53,12 @@
 	right: 1px;
 	width: 1px;
 	}
-#block-menu-menu-accordion ul.menu li:last-child a:after {
+.block-main-menu ul.menu li:last-child a:after {
 	content: " ";
 	display: none;
 }
 /* ========================================== */
-#block-menu-menu-accordion ul.menu ul {
+.block-main-menu ul.menu ul {
 	width: 200px;
 	background-color: #000;
 	z-index: 999;
@@ -66,18 +66,18 @@
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 }
-#block-menu-menu-accordion ul.menu ul li {
+.block-main-menu ul.menu ul li {
 	float: none;
 	margin-top: 0;
 	padding-top: 0;
 }
-#block-menu-menu-accordion ul.menu ul li a, #block-menu-menu-accordion ul.menu ul li a:hover {
+.block-main-menu ul.menu ul li a, .block-main-menu ul.menu ul li a:hover {
     line-height: 0.9em;
 	text-align: left;
 	color: #ccc;
 	background-color: transparent;
 }
-#block-menu-menu-accordion ul.menu li ul li a:hover {
+.block-main-menu ul.menu li ul li a:hover {
     text-decoration: none;
 }
 /* Footer Menu */

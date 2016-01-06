@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/ecoevo/sites/all/libraries/ckeditor/';
